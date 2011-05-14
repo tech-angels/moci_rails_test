@@ -11,8 +11,12 @@ class FooTest < ActiveSupport::TestCase
   end
 
   test "one more slower" do
-    sleep 0.5
+    sleep 0.1
     assert true
+  end
+
+  test "foo test" do
+    assert false
   end
 
   test "one much slower" do
